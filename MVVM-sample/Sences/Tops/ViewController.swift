@@ -35,7 +35,6 @@ class ViewController: UIViewController {
     }
     
     private func setUpView() {
-        viewModel.viewDelegate = self
         loadDataButton.addTarget(self, action: #selector(loadData), for: .touchUpInside)
     }
     
@@ -44,8 +43,6 @@ class ViewController: UIViewController {
         viewModel.getTopData(page: 1)
     }
 }
-
-// MARK: ViewDelegate
 
 extension ViewController: TopControllerViewModelViewDelegate {
     func updateIsLoaddingView(response: String) {

@@ -15,25 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiQ-dt-hWu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiQ-dt-hWu">
                                 <rect key="frame" x="173" y="263" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Load data"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYS-tL-bhD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYS-tL-bhD">
                                 <rect key="frame" x="140" y="473" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="nav to detail screen"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Response" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guv-sz-OOD">
-                                <rect key="frame" x="169" y="314" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Response" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guv-sz-OOD">
+                                <rect key="frame" x="0.0" y="322" width="414" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mYS-tL-bhD" firstAttribute="centerX" secondItem="GiQ-dt-hWu" secondAttribute="centerX" id="Fkz-ET-f6n"/>
+                            <constraint firstItem="mYS-tL-bhD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NRe-Xt-Wkb"/>
+                            <constraint firstItem="guv-sz-OOD" firstAttribute="top" secondItem="GiQ-dt-hWu" secondAttribute="bottom" constant="29" id="Nbe-Jr-Okx"/>
+                            <constraint firstItem="mYS-tL-bhD" firstAttribute="centerX" secondItem="guv-sz-OOD" secondAttribute="centerX" id="jP7-p4-s5g"/>
+                            <constraint firstItem="guv-sz-OOD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="322" id="k0L-Ig-VlV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mYS-tL-bhD" secondAttribute="bottom" constant="359" id="skL-h5-Vo9"/>
+                            <constraint firstItem="guv-sz-OOD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xD3-nn-Czv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
