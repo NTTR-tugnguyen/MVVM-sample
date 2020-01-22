@@ -9,5 +9,12 @@
 import Foundation
 
 class APIClientService {
-    init() {}
+    private static let shared = APIClientService()
+    
+    private init() {}
+    
+    func fetchData(url: String, parameter: [String: String]...) {
+        //todo: Fetch data and handle error here
+        // Alamofire.get(url.....)
+    }
 }

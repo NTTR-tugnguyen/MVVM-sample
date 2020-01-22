@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // デモのため、ここで書いていますが、実際にはここで書かないで
-        viewModel = TopControllerViewModel(model: TopModel(service: APIClientService()))
+        viewModel = TopControllerViewModel(model: TopModel())
         
     }
     

@@ -10,10 +10,8 @@ import Foundation
 
 class TopModel {
     // Service instance: APIを呼び出す時
-    let service: APIClientService
     
-    init(service: APIClientService) {
-        self.service = service
+    init() {
     }
     
     func getTopData(parameter: String) -> String {

@@ -13,11 +13,6 @@ class AppCoordinator: Coordinator {
     let window: UIWindow?
     
     lazy var rootViewController: UINavigationController = {
-//        let storyboard = UIStoryboard(name: "ViewController", bundle: nil)
-//        guard let controller = storyboard.instantiateInitialViewController() as? ViewController else {
-//            print("Can not create view controller")
-//            return UINavigationController(rootViewController: UIViewController())
-//        }
         return UINavigationController(rootViewController: UIViewController())
     }()
 

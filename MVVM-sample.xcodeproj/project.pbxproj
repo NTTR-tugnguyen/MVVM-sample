@@ -21,6 +21,7 @@
 		6279191D23D6848A006B09EF /* TopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6279191C23D6848A006B09EF /* TopModel.swift */; };
 		6279191F23D684B1006B09EF /* APIClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6279191E23D684B1006B09EF /* APIClientService.swift */; };
 		6279192123D7E4AB006B09EF /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6279192023D7E4AB006B09EF /* ViewController.storyboard */; };
+		62C4309F23D826BA00BB9A9B /* ViewControlelrExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C4309E23D826BA00BB9A9B /* ViewControlelrExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		6279191C23D6848A006B09EF /* TopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopModel.swift; sourceTree = "<group>"; };
 		6279191E23D684B1006B09EF /* APIClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientService.swift; sourceTree = "<group>"; };
 		6279192023D7E4AB006B09EF /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		62C4309E23D826BA00BB9A9B /* ViewControlelrExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlelrExtension.swift; sourceTree = "<group>"; };
 		CD030E9E92C987E3ECE47D76 /* Pods-MVVM-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-sample.debug.xcconfig"; path = "Target Support Files/Pods-MVVM-sample/Pods-MVVM-sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +96,6 @@
 		627918D923D1483C006B09EF /* MVVM-sample */ = {
 			isa = PBXGroup;
 			children = (
-				627918F323D14D61006B09EF /* New Group */,
 				627918F223D14D5B006B09EF /* Extensions */,
 				627918F123D14D54006B09EF /* Service */,
 				627918EE23D14CDA006B09EF /* Sences */,
@@ -149,15 +150,9 @@
 		627918F223D14D5B006B09EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				62C4309E23D826BA00BB9A9B /* ViewControlelrExtension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		627918F323D14D61006B09EF /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C4309F23D826BA00BB9A9B /* ViewControlelrExtension.swift in Sources */,
 				627918F923D173B7006B09EF /* TopCoordinator.swift in Sources */,
 				6279191F23D684B1006B09EF /* APIClientService.swift in Sources */,
 				627918F523D14F27006B09EF /* Coordinators.swift in Sources */,
