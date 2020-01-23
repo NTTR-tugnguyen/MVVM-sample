@@ -13,14 +13,15 @@ Root Project
     - ApiClient
     - vv..
   - Resource
+  - Common
   - Sence
     - TopScreen
      - TopScrenViewController.swift
      - TopScreenModel.swift
      - TopScreenViewControllerViewModel.swift
      - TopScreenEntity.swift 
-    - Detail Screen
-    - Setting Screen
+   - Detail Screen
+   - Setting Screen
 
 
 MVVM-Cは何の建築ですか？
