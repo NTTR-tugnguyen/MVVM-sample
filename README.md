@@ -46,5 +46,5 @@ ViewModelは ViewとModelの間のブリッジです。
 Coordinatorの役割は各画面の間に移転する役割です。
 
  
-
+![Image of MVVM-C](https://marcosantadev.com/wp-content/uploads/mvvm-c.jpg?v=1)
 
