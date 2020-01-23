@@ -16,10 +16,10 @@ Root Project
   - Common
   - Sence
     - TopSence
-     - TopScrenViewController.swift
-     - TopScreenModel.swift
-     - TopScreenViewControllerViewModel.swift
-     - TopScreenEntity.swift 
+      - TopScrenViewController.swift
+      - TopScreenModel.swift
+      - TopScreenViewControllerViewModel.swift
+      - TopScreenEntity.swift 
    - Detail Screen
    - Setting Screen
 
