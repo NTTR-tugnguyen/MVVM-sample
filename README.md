@@ -15,7 +15,7 @@ Root Project
   - Resource
   - Common
   - Sence
-    - TopScreen
+    - TopSence
      - TopScrenViewController.swift
      - TopScreenModel.swift
      - TopScreenViewControllerViewModel.swift
